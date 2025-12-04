@@ -14,7 +14,7 @@ Using **SQL for data engineering**, **Python for exploratory analysis**, and **T
 - Strategic pricing and policy changes could increase annual revenue by 15–20%.  
 
 
-    <img src="visuals\dashboard\Hotel Booking Dashboard.png" alt="Correlation Heatmap" width="850" />
+    <img src="visuals\dashboard\Hotel Booking Dashboard.png" alt="dashboard" width="850" />
 
 ---
 
@@ -78,14 +78,14 @@ The goal was to determine:
    - City Hotels rely on short-stay, high-frequency guests; Resorts attract longer leisure stays.   
 
  
-       <img src="visuals\plots\hotel_per_booking_revenue.png" alt="Correlation Heatmap" width="500"/> 
+       <img src="visuals\plots\hotel_per_booking_revenue.png" alt="hotel_per_booking_revenue" width="500"/> 
 
 
 2. **Long lead times cause cancellations.**  
    - Cancellation rate exceeds 85% when lead time > 400 days.  
    - Flexible OTA bookings amplify cancellations.  
     
-      <img src="visuals\plots\leadtime_distribution.png" width="500" />    <img src="visuals\plots\leadtime_cancellation_rate.png" alt="Correlation Heatmap" width="500"/>
+      <img src="visuals\plots\leadtime_distribution.png" width="500" />    <img src="visuals\plots\leadtime_cancellation_rate.png" alt="leadtime_cancellation_rate" width="500"/>
    
    
 3. **ADR alone doesn’t determine profitability.**  
