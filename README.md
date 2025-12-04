@@ -13,7 +13,8 @@ Using **SQL for data engineering**, **Python for exploratory analysis**, and **T
 - Cancellations increase sharply (up to 88%) for bookings made over 400 days in advance.  
 - Strategic pricing and policy changes could increase annual revenue by 15–20%.  
 
-![dashboard](visuals\dashboard\dashboard.png)
+
+    <img src="visuals\dashboard\dashboard.png" alt="Correlation Heatmap" width="850" />
 
 ---
 
@@ -52,7 +53,7 @@ The goal was to determine:
    - Quantified revenue drivers and cancellation patterns.  
 
    
-   <img src="visuals\plots\corr_headmap.png" alt="Correlation Heatmap" width="400" hight="300"/>    
+       <img src="visuals\plots\corr_headmap.png" alt="Correlation Heatmap" width="500" />    
 
 
 3. **Tableau — Visualization & Storytelling**  
@@ -77,14 +78,14 @@ The goal was to determine:
    - City Hotels rely on short-stay, high-frequency guests; Resorts attract longer leisure stays.   
 
  
-       <img src="visuals\plots\hotel_per_booking_revenue.png" alt="Correlation Heatmap" width="289" hight="300"/> 
+       <img src="visuals\plots\hotel_per_booking_revenue.png" alt="Correlation Heatmap" width="500"/> 
 
 
 2. **Long lead times cause cancellations.**  
    - Cancellation rate exceeds 85% when lead time > 400 days.  
    - Flexible OTA bookings amplify cancellations.  
     
-      <img src="visuals\plots\leadtime_distribution.png" width="300" hight="300"/>    <img src="visuals\plots\leadtime_cancellation_rate.png" alt="Correlation Heatmap" width="289" hight="300"/>
+      <img src="visuals\plots\leadtime_distribution.png" width="500" />    <img src="visuals\plots\leadtime_cancellation_rate.png" alt="Correlation Heatmap" width="478"/>
    
    
 3. **ADR alone doesn’t determine profitability.**  
@@ -97,14 +98,14 @@ The goal was to determine:
    - OTA commissions reduce margins; Direct/Corporate channels yield steadier profits.  
 
 
-     <img src="visuals\plots\market_segment_distribution.png" width="300" hight="300"/>  
+     <img src="visuals\plots\market_segment_distribution.png" height="300"/>  
 
 5. **Guest demographics influence behavior.**  
    - Families (43%) and couples (27%) dominate Resort stays.  
    - Business travelers drive City occupancy year-round with low cancellation rates.  
 
 
-     <img src="visuals\plots\guest_type_booking.png" width="300" hight="300"/>
+     <img src="visuals\plots\guest_demographics.png" width="350"/>
 
 ---
 
@@ -153,7 +154,7 @@ Based on verified insights, I proposed actions tied directly to measurable KPIs:
 - Tableau: KPI dashboards, trend analysis, and executive reporting.  
 - VS Code / Jupyter Notebook: analysis environment and documentation.
 
-  [🔗 View Jupyter Notebook](notebooks\01_EDA.ipynb)
+  [🔗 View Jupyter Notebook](https://github.com/fazmina27/hotel_bookings_analysis/blob/main/notebooks/01_EDA.ipynb)
 
 ---
 
